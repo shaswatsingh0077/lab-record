@@ -1,22 +1,24 @@
-# LinuxExperiments
+# Lab Record
 
-A collection of Linux shell scripting experiments and practice programs.  
-This repository is aimed at learning and exploring various Linux commands, scripting techniques, and automation tasks.
+This repository contains lab experiment records, reports, and logs for coursework and practice.
 
 ## Contents
-- Experiment1 → Basic shell scripting introduction  
-- Experiment2 → Conditional statements and loops  
-- Experiment3 → File operations and permissions  
-- Experiment4 → Process management  
-- Experiment5 → Scheduling with cron and at  
-- Experiment6 → String and text processing  
-- Experiment7 → System monitoring scripts  
-- Experiment8 → Networking basics  
+- [exp2](https://github.com/shaswatsingh0077/lab-record/tree/main/exp2) – Experiment 2 files  
+- [report1](https://github.com/shaswatsingh0077/lab-record/tree/main/report1) – Report 1  
+- [report3](https://github.com/shaswatsingh0077/lab-record/tree/main/report3) – Report 3  
+- [report4](https://github.com/shaswatsingh0077/lab-record/tree/main/report4) – Report 4  
+- [report5](https://github.com/shaswatsingh0077/lab-record/tree/main/report5) – Report 5  
+- [report6](https://github.com/shaswatsingh0077/lab-record/tree/main/report6) – Report 6  
+- [report7](https://github.com/shaswatsingh0077/lab-record/tree/main/report7) – Report 7  
 
-## How to Run
-Clone the repo and give execute permission to the script:
-```bash
-git clone https://github.com/aman-barnwal/LinuxExperiments.git
-cd LinuxExperiments/Experiment1
-chmod +x script.sh
-./script.sh
+### Additional Files
+- [exp4.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp4.md)  
+- [exp6.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp6.md)  
+- [exp7.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp7.md)  
+- [exp7.log](https://github.com/shaswatsingh0077/lab-record/blob/main/exp7.log)  
+
+## How to Use
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/shaswatsingh0077/lab-record.git
+   cd lab-record
