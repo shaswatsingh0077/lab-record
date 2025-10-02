@@ -1,0 +1,87 @@
+Script started on Thursday 02 October 2025 01:51:47 PM IST
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat palindrome.sh
+echo " Enter the number : "
+read num
+rev=0
+temp = $num
+while [ $temp -gt 0 ]
+do
+  digit = $(( temp % 10 ))
+  rev = $((rev + 10 + digit ))
+  temp = $((temp / 10 ))
+done
+if [ $num -eq $rev ]
+then
+    echo "$num is palindrome. "
+else
+    echo "$num is not palindrome. "
+fi 
+
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ bash palindrome.sh
+ Enter the number : 
+123
+palindrome.sh: line 4: temp: command not found
+palindrome.sh: line 5: [: -gt: unary operator expected
+123 is not palindrome. 
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat gcd.sh
+#!/bin/bash
+echo "Enter two numbers: "
+read a b
+x = $a
+y = $b
+while [ $y -ne 0 ]
+do
+  temp=$y
+  y = $((x % y))
+  x = $temp
+done
+gcd = $x
+lcm = $(( (a * b) / gcd ))
+echo "GCD: $gcd"
+echo "LCM: $lcm"
+
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat sorting.sh
+echo "Enter numbers separated by space:"
+read -a arr
+echo " Ascending Order: "
+printf "%s\n" "${arr[@]}" | sort  -n
+echo " Descending Order: "
+printf "%s\n" "${arr[@]}" | sort -nr
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat seies.sh
+cat: seies.sh: No such file or directory
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat series.sh
+for i in {i..40}
+do
+  echo -e "\nA Step $i"
+  if [ $i -eq 4 ];then
+          echo "b before continue"
+          continue
+          echo "B after continue"
+   fi
+   if [ $i -eq 8 ];then
+            echo "c before continue"
+            continue
+            echo "B after continue"
+    fi
+    
+    if [ $i -eq 8 ];then
+            echo "c before break"
+            break
+            echo "C after break"
+     fi
+     
+     echo -e "D ending take\n"
+done
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat table.sh
+table(){
+        a=$1
+        for i in {1..10}
+        do
+             echo "$a x $i = $((a *i))"
+        done
+}
+table "$1"
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ exit
+exit
+
+Script done on Thursday 02 October 2025 02:00:20 PM IST
