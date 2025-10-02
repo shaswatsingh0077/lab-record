@@ -1,0 +1,97 @@
+Script started on Thursday 02 October 2025 01:11:36 PM IST
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat file.sh
+echo "Enter filename: "
+read file
+if [ -e "$file" ]
+then 
+    echo "File exists. Contents are:"
+    cat "$file"
+else
+    echo "File exists. Contents are:"
+    cat "Do you want to create it? (y/n)"
+    read choice
+    if ["$choice" = "y" ]; then
+         touch "$file"
+         echo "File $file created."
+    fi
+fi
+
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ bash file.sh
+Enter filename: 
+artihmetic.sh
+File exists. Contents are:
+echo "Enter first number: "
+read num1
+echo "Enter second number: "
+read num2
+
+echo "Addition: $((num1 + num2))"
+echo "Substraction: $((num1 - num2))"
+echo "Multiplication: $((num1 * num2))"
+echo "Divison: $((num1 / num2))"
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat print.sh
+for i in {1..10}
+do
+   echo $i
+done
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ bash print.sh
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat count.sh
+if [ $# -eq 0 ]
+then
+    echo "Usage: $0 filename"
+    exit 1
+fi
+ 
+file=$1
+
+if [ -e "$file" ]
+then
+    echo "Lines: $(WC -l < $file)"
+    echo "Words: $(WC -w < $file)"
+    echo "Characters: $(WC -m < $file)"
+else
+    echo "File not found!"
+fi
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ bash count.sh
+Usage: count.sh filename
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat factorial.sh
+factorial()
+{
+  num = $1
+  fact = 1
+  while [ $num -gt 1 ]
+  do
+     fact = $((num - 1))
+  done
+  echo $fact
+}
+ echo "Factorial of 5 is: $(factorial 5)"
+ echo "Factorial of 7 is: $(factorial 7)"
+ echo "Factorial of 10 is: $(factorial 10)"
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ bash factorial.sh
+factorial.sh: line 3: num: command not found
+factorial.sh: line 4: fact: command not found
+factorial.sh: line 5: [: -gt: unary operator expected
+Factorial of 5 is: 
+factorial.sh: line 3: num: command not found
+factorial.sh: line 4: fact: command not found
+factorial.sh: line 5: [: -gt: unary operator expected
+Factorial of 7 is: 
+factorial.sh: line 3: num: command not found
+factorial.sh: line 4: fact: command not found
+factorial.sh: line 5: [: -gt: unary operator expected
+Factorial of 10 is: 
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ exit
+exit
+
+Script done on Thursday 02 October 2025 01:26:47 PM IST
