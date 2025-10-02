@@ -1,0 +1,57 @@
+Script started on Thursday 02 October 2025 10:29:45 PM IST
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat exp81.sg[Kh
+echo "Enter filename:"
+read file
+if [ -e "$file" ]; then
+   [ -r "$file" ] && echo "file is readable"
+   [ -w "$file" ] && echo "file is writable"
+   [ -x "$file" ] && echo "File is executable"
+else
+    echo "File does not exist ."
+fi
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat exp8ii.sh
+echo "Enter first string:"
+read str1
+echo "Enter second string:"
+read str2
+ # String length 
+echo "Length of first string: ${#str1}"
+echo "Length of second string: ${#str2}"
+ 
+
+# Concatenation
+concat="$str1$str2"
+echo "Concatenated  string: $concat"
+
+# comparison
+if [ "$str1" = "$str2" ]; then
+echo "Strings are equal"
+else
+ echo "strings are not equal"
+fi
+
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat exp8[K[K[K[Kpatterns.sh
+echo "Enter filename: "
+read file
+echo "Enter pattern to search:"
+read pattern
+if [ -e "$file" ]; then
+echo "Matching lines:"
+grep "$pattern" "$file"
+else
+echo "File not found!"
+fi
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat patternf.sh
+echo "System Information:"
+echo "-------------------"
+echo "Date and Time: $(date)"
+echo "Logged in users: $(who)"
+echo "System Uptime: $(uptime -p)"
+echo "Memory Usage:"
+free -h
+echo "Disk Usage:"
+df -h
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ exit
+exit
+
+Script done on Thursday 02 October 2025 10:30:58 PM IST
