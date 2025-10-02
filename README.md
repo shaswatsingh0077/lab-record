@@ -15,7 +15,11 @@ This repository contains lab experiment records, reports, and logs for coursewor
 - [exp4.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp4.md)  
 - [exp6.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp6.md)  
 - [exp7.md](https://github.com/shaswatsingh0077/lab-record/blob/main/exp7.md)  
-- [exp7.log](https://github.com/shaswatsingh0077/lab-record/blob/main/exp7.log)  
+- [exp7.log](https://github.com/shaswatsingh0077/lab-record/blob/main/exp7.log)
+- ### [Experiment 8](./Experiment8)
+- Advanced shell scripting tasks
+- Case statements, command line arguments
+
 
 ## How to Use
 1. Clone the repo:
