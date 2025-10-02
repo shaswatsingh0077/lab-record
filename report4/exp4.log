@@ -1,0 +1,21 @@
+Script started on Thursday 02 October 2025 03:18:37 PM IST
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ h[Kcat helloworld.sh
+echo "Hello, World!"
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat scripting.sh
+echo "Enter your name: "
+read name
+echo "Hello , $name! Welcome to shell scripting."
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ cat arth[Kihmetic.sh
+echo "Enter first number: "
+read num1
+echo "Enter second number: "
+read num2
+
+echo "Addition: $((num1 + num2))"
+echo "Substraction: $((num1 - num2))"
+echo "Multiplication: $((num1 * num2))"
+echo "Divison: $((num1 / num2))"
+]0;shaswat4657@shaswat4657-VirtualBox: ~shaswat4657@shaswat4657-VirtualBox:~$ exit
+exit
+
+Script done on Thursday 02 October 2025 03:20:31 PM IST
