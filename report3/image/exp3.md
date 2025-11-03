@@ -3,13 +3,13 @@
 <img width="803" height="596" alt="etc" src="https://gist.github.com/user-attachments/assets/1123dcea-58ee-48a2-8036-035e46273b99" />
 # Linux File Manipulation and System Management Tutorial
 
-## 📌 Introduction
+##  Introduction
 Linux is a powerful open-source operating system widely used in servers, development, and embedded systems.  
 This tutorial covers *file manipulation* and *basic system management* commands essential for beginners and professionals.
 
 ---
 
-## 📂 1. File Manipulation
+##  1. File Manipulation
 
 ### 1.1 Navigating Directories
 ```bash
@@ -37,30 +37,7 @@ cp -r dir1 dir2              # Copy directory with contents
 ls -l
 
 
-┌─────────────────────┐
-        │ User runs:          │
-        │ touch file          │
-        └─────────┬───────────┘
-                  │
-                  ▼
-      ┌─────────────────────────┐
-      │ Where is command run?   │
-      │ Current directory = ?   │
-      └─────────┬───────────────┘
-                │
-   ┌────────────┴─────────────┐
-   │ Inside / (root dir)?     │
-   └───────┬─────────┬────────┘
-           │Yes       │ No
-           ▼          ▼
- ┌────────────────┐   ┌─────────────────────┐
- │ Normal user     │   │ Inside /home/user   │
- │ has no write    │   │ User has permission │
- │ permission here │   │ File created        │
- └───────┬────────┘   └───────────┬─────────┘
-         │                        │
-         ▼                        ▼
- Permission Denied ❌       File Created ✅
+
 
 
 
