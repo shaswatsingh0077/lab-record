@@ -21,8 +21,4 @@ This repository contains lab experiment records, reports, and logs for coursewor
 - Case statements, command line arguments
 
 
-## How to Use
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/shaswatsingh0077/lab-record.git
-   cd lab-record
+
