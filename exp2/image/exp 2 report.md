@@ -1,8 +1,8 @@
 <img width="816" height="597" alt="SS2" src="https://gist.github.com/user-attachments/assets/304a3a91-4304-4a3d-a767-8af03fe93b9f" />
 <img width="882" height="632" alt="sS1" src="https://gist.github.com/user-attachments/assets/cf6e668a-2930-47d4-861f-b9cfb94ba1e5" />
-# 🔬 Experiment 2: Linux File Systems, Permissions, and Essential Commands
+#  Experiment 2: Linux File Systems, Permissions, and Essential Commands
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [Theory: Understanding Linux File Systems](#theory-understanding-linux-file-systems)  
 2. [File Permissions](#file-permissions)  
 3. [Users and Ownership](#users-and-ownership)  
