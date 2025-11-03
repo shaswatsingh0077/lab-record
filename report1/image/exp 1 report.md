@@ -1,11 +1,11 @@
-# 🔬 Experiment 1: Install WSL, VirtualBox, and Create a Linux Virtual Machine
+#  Experiment 1: Install WSL, VirtualBox, and Create a Linux Virtual Machine
 
-## 🎯 Aim
+##  Aim
 To install *WSL (Windows Subsystem for Linux), set up **VirtualBox, and create a **virtual machine* using a Linux operating system (Ubuntu, Linux Mint, or Debian).
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 - Windows 10/11 (64-bit) system  
 - Administrator access  
 - Internet connection  
@@ -16,7 +16,7 @@ To install *WSL (Windows Subsystem for Linux), set up **VirtualBox, and create a
 
 ---
 
-## ⚙️ Procedure
+##  Procedure
 
 ### *Part A: Install WSL*
 1. Open *PowerShell as Administrator*.
